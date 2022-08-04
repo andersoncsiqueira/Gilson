@@ -4,7 +4,7 @@ import "../Saudation.css"
 const Saudation = () => {
   return (
     <div className="saudation">
-        <span data-js="saudation">Bom dia, </span><span>Gilson!!</span>
+        <p><span data-js="hello">Bom dia</span>, Gilson!!</p>
     </div>
   )
 }

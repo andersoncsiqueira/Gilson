@@ -7,8 +7,8 @@ button {
 }
 
 .imgButton {
-    width: 90px;
-    height: 90px;
+    width: 68px;
+    height: 68px;
     color: #F20C0C;
 }
 
@@ -18,8 +18,8 @@ button {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 667px;
-    height: 498px;
+    width: 500px;
+    height: 373px;
     border-radius: 5px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.712);
 }
@@ -30,17 +30,17 @@ button {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 567px;
-    height: 332px;
+    width: 425px;
+    height: 249px;
     border-radius: 5px;
 }
 
 .span1 {
     color: white;
-    font-size: 96px;
+    font-size: 72px;
 }
 
 .span2 {
     color: white;
-    font-size: 128px;
+    font-size: 96px;
 }
