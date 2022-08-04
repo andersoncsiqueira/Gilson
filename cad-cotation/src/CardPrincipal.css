@@ -1,0 +1,46 @@
+button {
+    width: 90px;
+    height: 90px;
+    background: none;
+    border: none;
+    margin-top: 10px;
+}
+
+.imgButton {
+    width: 90px;
+    height: 90px;
+    color: #F20C0C;
+}
+
+.container {
+    background: #232526;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 667px;
+    height: 498px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.712);
+}
+
+.content {
+    background: #8C0404;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 567px;
+    height: 332px;
+    border-radius: 5px;
+}
+
+.span1 {
+    color: white;
+    font-size: 96px;
+}
+
+.span2 {
+    color: white;
+    font-size: 128px;
+}

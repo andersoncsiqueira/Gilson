@@ -1,0 +1,24 @@
+
+
+.container-Wpp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #BF0A0A;
+    width: 514px;
+    height: 117px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.712);
+    margin: 30px;
+}
+
+p {
+    color: white;
+    font-size: 44px;
+}
+
+.wpp {
+    width: 75px;
+    height: 75px;
+    margin: 15px;
+}
