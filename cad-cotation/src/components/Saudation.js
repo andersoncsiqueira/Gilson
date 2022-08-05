@@ -17,7 +17,7 @@ const writeHello = () => {
   } else if (present.getHours() > 12 && present.getHours() < 16) {
     return <span data-js="hello">Boa tarde</span>
   } else {
-    return <span data-js="hello">Sem recarga agora,</span>
+    return <span data-js="hello">Sem recarga agora</span>
   }
 
   

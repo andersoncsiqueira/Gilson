@@ -15,7 +15,7 @@ const CardPrincipal = () => {
   
       const response = await fetch(url)
       const dataCad = await response.json()
-      const price0 = (Number(dataCad['CADBRL']['ask'])+Number(dataCad['CADBRL']['bid']))/2
+      const price0 = ((Number(dataCad['CADBRL']['ask'])+Number(dataCad['CADBRL']['bid']))/2)*1.37
       
       setPrice(price0.toFixed(2))
     
