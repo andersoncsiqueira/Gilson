@@ -4,6 +4,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    
     background: #BF0A0A;
     width: 385px;
     height: 88px;
@@ -12,13 +13,13 @@
     margin: 30px;
 }
 
-p {
+.pWhats {
     color: white;
     font-size: 33px;
+    font-family: 'Courgette', cursive;
 }
 
 .wpp {
     width: 75px;
     height: 75px;
-    margin: 15px;
 }

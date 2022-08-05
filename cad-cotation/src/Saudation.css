@@ -1,8 +1,10 @@
 .saudation {
-    margin: 3px;
-    
+    font-family:'Indie Flower', cursive;
+    margin-bottom: 10px;
 }
 
-p {
+.pSaudation {
     color:black;
+    font-size: 30px;
+    margin-bottom: 2px;
 }
