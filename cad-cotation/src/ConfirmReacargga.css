@@ -1,0 +1,20 @@
+.Confirm p {
+    background: #8c0404;
+    padding: 17px;
+    border-radius: 3px;
+    color: white;
+}
+
+.Confirm button {
+    background: #F20c0c;
+    width: 190px;
+    border-radius: 3px;
+    font-size: 35px;
+    font-weight: 400;
+    color: white;
+}
+
+.Confirm button:hover {
+    background: #5e0101;
+    
+}

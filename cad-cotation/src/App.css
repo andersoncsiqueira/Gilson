@@ -28,6 +28,15 @@ body{
   top:32px;
 }
 
+
+@media (max-width: 540px) {
+  .logo-img{
+    position: absolute;
+    left: 24px;
+    top:22px;
+  }
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

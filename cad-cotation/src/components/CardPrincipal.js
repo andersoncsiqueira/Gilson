@@ -5,6 +5,7 @@ import {useState,useEffect} from "react"
 
 
 
+
 const CardPrincipal = () => {
 
   const [price, setPrice] = useState('4,5')
@@ -15,8 +16,7 @@ const CardPrincipal = () => {
   
       const response = await fetch(url)
       const dataCad = await response.json()
-      const price0 = ((Number(dataCad['CADBRL']['ask'])+Number(dataCad['CADBRL']['bid']))/2)*1.37
-      
+      const price0 = ((Number(dataCad['CADBRL']['ask'])+Number(dataCad['CADBRL']['bid']))/2)*1.128
       setPrice(price0.toFixed(2))
     
     }
@@ -24,18 +24,20 @@ const CardPrincipal = () => {
     getData()
   },[])
 
-
-
+   
 
   return (
     <div className="container">
         <div className="content">
             <span className="span1">Cad</span>
             <span className="span2">{price}</span>
+            
         </div>
-       
-        <button><img src={refresh} alt="Imagem simbolizando um 'refresh'" className="imgButton"/></button>
+        
+       <form>
+        <button><img src={refresh} alt="Imagem simbolizando um 'refresh'" className="imgButton"/></button></form>
     </div>
+
   )
 }
 

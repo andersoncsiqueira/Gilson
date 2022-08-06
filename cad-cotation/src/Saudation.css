@@ -5,6 +5,16 @@
 
 .pSaudation {
     color:black;
-    font-size: 30px;
+    font-size: 39px;
     margin-bottom: 2px;
+}
+
+@media (max-width: 540px) {
+   
+
+    .pSaudation {
+        margin-top: 110px;
+        font-size: 23px;
+        
+    }
 }

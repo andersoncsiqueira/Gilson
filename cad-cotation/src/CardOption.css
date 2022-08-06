@@ -1,0 +1,40 @@
+.containOption {
+    position: absolute;
+    background: #232526;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 550px;
+    height: 450px;
+    
+}
+
+.pOptions {
+    color: white;
+}
+
+
+.buttonOptionsCad {
+    background: #d9d9d9;
+    font-weight: bolder;
+    width: 50px;
+    height: 35px;
+    margin: 4px;
+    border-radius: 5px;
+}
+
+.buttonOptionsCad:hover {
+    background: #f20c0c;
+    color: #d9d9d9;
+    font-weight: bolder;
+}
+
+.pX {
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    color: #d9d9d9;
+    font-weight: bolder;
+    cursor: pointer;
+}

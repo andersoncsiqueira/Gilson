@@ -7,12 +7,22 @@ button {
     background: none;
     border: none;
     margin-top: 10px;
+    cursor: pointer;
 }
+
+
 
 .imgButton {
     width: 68px;
     height: 68px;
     color: #F20C0C;
+}
+
+.imgButton:hover {
+
+    width: 78px;
+    height: 78px;
+
 }
 
 .container {
@@ -48,4 +58,17 @@ button {
     color: white;
     font-size: 96px;
     font-family: 'inter';
+}
+
+
+@media (max-width: 540px) {
+    .container {
+        max-width: 80vw;
+    }
+
+    .content {
+        
+            max-width: 70vw;
+        
+    }
 }
