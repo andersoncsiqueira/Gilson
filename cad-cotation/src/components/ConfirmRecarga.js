@@ -36,7 +36,7 @@ const ConfirmRecarga = ({value}) => {
 
 
 const menssageWhats = ()=> {
-    return `https://web.whatsapp.com/send?phone=5587981116050&text=${writeHello()}, quero recarregar ${value} dólares canadenes, na cotação de R$ ${cotation}. Segue o comprovante.`
+    return `https://wa.me/5587981116050?text=${writeHello()}, quero recarregar ${value} dólares canadenses, na cotação de R$ ${cotation}. Segue o comprovante.`
 }
 
 
@@ -45,7 +45,7 @@ const textPresponse = () => {
     
     
     return <p> Sua recarga é de {value} dólares canadenses na cotação de {cotation}, <br/>
-    transfira R${(cotation*value).toFixed(2)} para nossa conta envie o comprovante.</p>
+    transfira R${(cotation*value).toFixed(2)} para nossa conta e envie o comprovante.</p>
     
 }
 
