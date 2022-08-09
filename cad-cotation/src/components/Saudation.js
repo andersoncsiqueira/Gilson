@@ -12,7 +12,7 @@ const writeHello = () => {
     return <span data-js="hello">Final de semana não tem recarga, bom descanso!</span>
   } else if(present.getHours() > 6 && present.getHours() < 12){
     return <span data-js="hello">Bom dia, Gilson!!</span>
-  } else if (present.getHours() > 12 && present.getHours() < 16) {
+  } else if (present.getHours() >= 12 && present.getHours() < 16) {
     return <span data-js="hello">Boa tarde, Gilson!!</span>
   } else {
     return <span data-js="hello">Sem recarga agora, Gilson!!</span>

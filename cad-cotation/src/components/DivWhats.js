@@ -23,10 +23,10 @@ const outdiv = ()=> {
   return (
   <>
     {slipt && <CardOption outdiv={outdiv}/>}
-    <div className="container-Wpp">
+    <div className="container-Wpp" onClick={setdiv}>
     
         <p className="pWhats"> Quero recarregar</p>
-        <img src={wpp} alt="icone do whatsapp" className='wpp' onClick={setdiv}/>
+        <img src={wpp} alt="icone do whatsapp" className='wpp' />
         
       
     </div>

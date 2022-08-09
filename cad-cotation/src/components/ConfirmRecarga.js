@@ -5,9 +5,9 @@ const ConfirmRecarga = ({value}) => {
 
     const writeHello = () => {
         const present = new Date()
-        if(present.getHours() > 6 && present.getHours() < 12){
+        if(present.getHours() > 8 && present.getHours() < 12){
           return 'Bom dia'
-        } else if (present.getHours() > 12 && present.getHours() < 16) {
+        } else if (present.getHours() >= 12 && present.getHours() < 16) {
           return 'Boa tarde'
         } else {
             return 'Poxa, esse horário eu sei que não tem mais como recarregar, se fiz um depósito fico ciente que o valor pode oscilar até o momento em que vocês abrirem a loja.'
@@ -36,7 +36,7 @@ const ConfirmRecarga = ({value}) => {
 
 
 const menssageWhats = ()=> {
-    return `https://wa.me/5587981116050?text=${writeHello()}, quero recarregar ${value} dólares canadenses, na cotação de R$ ${cotation}. Segue o comprovante.`
+    return `https://wa.me/5587981116050?text=${writeHello()} Quero recarregar ${value} dólares canadenses, na cotação de R$ ${cotation}. Segue o comprovante.`
 }
 
 

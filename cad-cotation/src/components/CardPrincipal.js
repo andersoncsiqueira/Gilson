@@ -8,7 +8,7 @@ import {useState,useEffect} from "react"
 
 const CardPrincipal = () => {
 
-  const [price, setPrice] = useState('4,5')
+  const [price, setPrice] = useState('Atualize')
   const url = "https://economia.awesomeapi.com.br/last/CAD-BRL"
   useEffect(()=>{
     
