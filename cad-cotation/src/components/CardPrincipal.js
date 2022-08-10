@@ -18,7 +18,7 @@ const CardPrincipal = () => {
       const dataCad = await response.json()
       const price0 = ((Number(dataCad['CADBRL']['ask'])+Number(dataCad['CADBRL']['bid']))/2)*1.128
       setPrice(price0.toFixed(2))
-    
+    console.log((Number(dataCad['CADBRL']['ask'])+Number(dataCad['CADBRL']['bid']))/2)
     }
 
     getData()
@@ -29,7 +29,7 @@ const CardPrincipal = () => {
   return (
     <div className="container">
         <div className="content">
-            <span className="span1">Cad</span>
+            <span className="span1">Dólar Canandense</span>
             <span className="span2">{price}</span>
             
         </div>
