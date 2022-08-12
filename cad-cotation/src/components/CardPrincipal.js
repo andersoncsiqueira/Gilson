@@ -29,7 +29,7 @@ const CardPrincipal = () => {
   return (
     <div className="container">
         <div className="content">
-            <span className="span1">Dólar Canandense</span>
+            <span className="span1">Dólar Canadense</span>
             <span className="span2">{price}</span>
             
         </div>

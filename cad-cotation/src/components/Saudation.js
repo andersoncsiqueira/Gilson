@@ -7,7 +7,7 @@ const Saudation = () => {
 
 const writeHello = () => {
   const present = new Date()
-  console.log(present.getDay())
+  
   if(present.getDay() === 0 || present.getDay() === 6) {
     return <span data-js="hello">Final de semana não tem recarga, bom descanso!</span>
   } else if(present.getHours() > 6 && present.getHours() < 12){

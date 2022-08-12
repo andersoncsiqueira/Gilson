@@ -15,7 +15,7 @@ const chose = (e) => {
   setValue(e.target.value)
 
   setShowConfirm(true)
-
+ 
  
 }
 

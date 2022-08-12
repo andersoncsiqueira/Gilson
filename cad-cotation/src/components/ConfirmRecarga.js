@@ -34,7 +34,7 @@ const ConfirmRecarga = ({value}) => {
     getData()
   },[])
 
-
+  console.log(value)
 const menssageWhats = ()=> {
     return `https://wa.me/5587981116050?text=${writeHello()} Quero recarregar ${value} dólares canadenses, na cotação de R$ ${cotation}. Segue o comprovante.`
 }
